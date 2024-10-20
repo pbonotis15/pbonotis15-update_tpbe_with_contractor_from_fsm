@@ -1,3 +1,12 @@
+# Author: Panos Bonotis -> https://www.linkedin.com/in/panosbonotis/
+# Date: Oct-2024
+# Description: This program is designed to process a master Excel file with multiple sheets based on SRID values.
+# It prompts the user to select two input Excel files and an output directory.
+# The program merges specific sheets into one, then processes and updates columns across the remaining sheets.
+# Specifically, it clears and updates the "CONTRACTOR" and "FASTX" columns based on the SRID values from the second input file.
+# Both "CONTRACTOR" (uppercase) and "contractor" (lowercase) columns are handled.
+# The program automates Excel file modifications, allowing efficient management of contractor and status data.
+
 import pandas as pd
 from tkinter import Tk, filedialog
 
